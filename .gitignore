@@ -1,0 +1,17 @@
+node_modules/
+
+dist/
+
+_next/
+
+*.class
+
+*.log
+
+*.jar
+
+.DS_Store
+
+bower_components/
+
+*.tgz
