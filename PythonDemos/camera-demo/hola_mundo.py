@@ -5,7 +5,7 @@ camera = PiCamera()
 camera.rotation = 180
 
 camera.start_preview()
-for i in range(5);
+for i in range(5):
 	sleep(5)
 	camera.capture('/home/pi/Desktop/Cosmoblastos/Demos/PythonDemos/camera-demo/fotos/image%s.jpg' % i)
 camera.stop_preview()
