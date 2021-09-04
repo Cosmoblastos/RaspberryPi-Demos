@@ -7,7 +7,7 @@ _random = random
 _subprocess = subprocess
 detect_in_row = 0
 
-folder = realpath(join(realpath(__file__), 'fun', 'arnold_audio'))
+folder = realpath(join(realpath(__file__),'..', 'fun', 'arnold_audio'))
 arnold_mp3 = [
     os.path.join(folder, x)
     for x in os.listdir(folder)
