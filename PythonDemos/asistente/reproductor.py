@@ -17,7 +17,7 @@ arnold_mp3 = [
 filename = _random.choice(arnold_mp3)
 try:
     print("playing", filename)
-    _subprocess.check_output(['play', '-v', '.1', filename])
+    _subprocess.check_output(['play', '-v', '.9', filename])
 except Exception as e:
     print(str(e))
         
